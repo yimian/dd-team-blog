@@ -1,0 +1,19 @@
+{
+  "name": "dd-team-blog",
+  "dependencies": {
+    "@nuxt/content": "^1.11.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "nuxt": "^2.14.7"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.2.0",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
