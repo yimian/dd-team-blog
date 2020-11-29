@@ -7,13 +7,16 @@
   },
   "scripts": {
     "dev": "nuxt",
+    "generate": "nuxt generate",
     "build": "nuxt build",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=main --cleanup"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.2.0",
     "autoprefixer": "^9",
     "postcss": "^7",
+    "push-dir": "^0.4.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
