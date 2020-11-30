@@ -1,7 +1,7 @@
 ---
 title: 升级至 Tailwind CSS 2.0
 description: 此次的更新值得关注的是什么？以及更新之后应该做什么工作？
-img: /update-to-tailwindcss-2.png
+img: update-to-tailwindcss-2.png
 alt: Update to TailwindCSS v2.0
 author:
   name: Franco
