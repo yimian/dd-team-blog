@@ -1,8 +1,16 @@
+// only add `router.base = '/dd-team-blog/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/dd-team-blog/'
+        }
+      }
+    : {}
+
 export default {
   target: 'static',
-  // router: {
-  //   base: '/dd-team-blog/'
-  // },
+  ...routerBase,
   components: true,
   modules: ['@nuxt/content'],
   buildModules: ['@nuxtjs/tailwindcss'],
