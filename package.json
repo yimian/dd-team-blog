@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "nuxt",
-    "generate:main": "DEPLOY_ENV=MAIN nuxt generate",
-    "build:main": "DEPLOY_ENV=MAIN nuxt build",
+    "generate": "nuxt generate",
+    "build": "nuxt build",
     "start": "nuxt start",
     "deploy": "push-dir --dir=dist --branch=main --cleanup"
   },

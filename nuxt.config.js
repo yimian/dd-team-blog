@@ -1,16 +1,8 @@
-// only add `router.base = '/dd-team-blog/'` if `DEPLOY_ENV` is `MAIN`
-const routerBase =
-  process.env.DEPLOY_ENV === 'MAIN'
-    ? {
-        router: {
-          base: '/dd-team-blog/'
-        }
-      }
-    : {}
-
 export default {
   target: 'static',
-  ...routerBase,
+  router: {
+    base: '/dd-team-blog/'
+  },
   components: true,
   modules: ['@nuxt/content'],
   buildModules: ['@nuxtjs/tailwindcss'],
