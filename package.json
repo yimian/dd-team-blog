@@ -10,7 +10,7 @@
     "generate": "nuxt generate",
     "build": "nuxt build",
     "start": "nuxt start",
-    "deploy": "push-dir --dir=dist --branch=main --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.2.0",
