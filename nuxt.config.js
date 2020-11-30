@@ -1,6 +1,6 @@
-// only add `router.base = '/dd-team-blog/'` if `DEPLOY_ENV` is `GH_PAGES`
+// only add `router.base = '/dd-team-blog/'` if `DEPLOY_ENV` is `MAIN`
 const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
+  process.env.DEPLOY_ENV === 'MAIN'
     ? {
         router: {
           base: '/dd-team-blog/'
