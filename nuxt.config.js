@@ -1,7 +1,7 @@
 export default {
   target: 'static',
   router: {
-    base: '/dd-team-blog/'
+    base: '/dd-team-blog'
   },
   components: true,
   modules: ['@nuxt/content'],
