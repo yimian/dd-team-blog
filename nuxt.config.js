@@ -3,6 +3,13 @@ export default {
   router: {
     base: '/dd-team-blog'
   },
+  content: {
+    markdown: {
+      prism: {
+        theme: false,
+      },
+    },
+  },
   components: true,
   modules: ['@nuxt/content'],
   buildModules: ['@nuxtjs/tailwindcss'],
